@@ -1,0 +1,227 @@
+/* **********written by Anurag********* */
+
+
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+.menu {
+    background-color: blue;
+    color: #f2f3f4;
+    position: absolute;
+    top: 0rem;
+    width: 100%;
+    height: 2.5rem;
+    right: 0rem;
+}
+#menutxt {
+    background-color: blue;
+    color: #f2f3f4;
+    position: absolute;
+    top: 0rem;
+    width: 100%;
+    height: 2rem;
+
+
+}
+#menubtn{
+    position: relative;
+    top: .5rem;
+    left: 15rem;
+    color: blue;
+    height: 2rem;
+    border: solid #f2f3f4 2px;
+    border-radius: 5px;
+}
+
+.calculator {
+   position: relative;
+   left: 35rem;
+   top: 7rem;
+   border-radius: 5px;
+}   
+
+.title { 
+    margin-bottom: 10px; 
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight:bold;
+    text-align:center; 
+    width: 26.5rem;
+    background-color: #f2f3f4;
+    color:blue; 
+    border: solid black 2px; 
+    border-radius: 5px;
+} 
+  
+/* **********written by Anurag********* */
+#btn {
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+#btn:hover {
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    border: solid #121212 2px;
+    color: #f2f3f4;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+#btn:active {
+    width: 95%;
+    height: 35px;
+    border: solid #121212 1px;
+    border-radius: 5px;
+    font-size: 30px;
+    
+
+}
+  
+input[type="button"] { 
+    background-color: #f2f3f4; 
+    color: blue;
+    border: solid black 2px; 
+    width: 100%;
+    border-radius: 5px;
+} 
+ /* **********written by Anurag********* */
+#txtbox{
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+input[type="text"] { 
+    background-color: #f2f3f4; 
+    border: solid black 2px; 
+    width: 100%;
+    border-radius: 5px;
+}
+
+.darkmode{
+    background-color: #121212;
+    color: white;
+
+}
+.darkmode .menu{
+    background-color: #404040;
+    position: absolute;
+    top: 0rem;
+    width: 100%;
+    height: 2.5rem;
+
+}
+
+
+.darkmode #menutxt{
+    background-color: #404040;
+    color: #f2f3f4;
+    position: absolute;
+    top: 0rem;
+    width: 100%;
+    height: 2rem;
+}
+
+.darkmode #menubtn{
+    position: relative;
+    top: .5rem;
+    left: 15rem;
+    color: #121212;
+    background-color: #f2f3f4;
+    height: 2rem;
+    border: solid black 2px;
+    border-radius: 5px;
+}
+.darkmode .calculator{
+    background-color: #121212;
+}
+.darkmode .title{
+    margin-bottom: 10px; 
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight:bold;
+    text-align:center; 
+    width: 26.5rem;
+    background-color: #404040;
+    color:#f2f3f4; 
+    border: solid #f2f3f4 2px; 
+    border-radius: 5px;
+
+};
+
+.dakmode input[type="text"] { 
+    background-color: #404040; 
+    border: solid #404040 2px; 
+    width: 100%;
+    border-radius: 5px; 
+} 
+    
+
+.darkmode input[type="button"] { 
+    background-color: #404040; 
+    color: #f2f3f4;
+    border: solid #f2f3f4 2px; 
+    width: 100%;
+    border-radius: 5px;
+} 
+
+.darkmode #btn:hover {
+    width: 100%;
+    height: 40px;
+    color: #404040;
+    background-color: white;
+    border: solid white 2px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+/* **********written by Anurag********* */
+
+.darkmode #btn:active {
+    width: 95%;
+    height: 35px;
+    border: solid #121212 1px;
+    border-radius: 5px;
+    font-size: 30px;
+    
+
+}
+.darkmode footer{
+    background-color: #404040;
+    text-align: center;
+    height: 8rem;
+    width: 100%;
+    position: absolute;
+    right: 0rem;
+    bottom: 0rem;
+
+}
+.darkmode #footxt{
+    position: relative;
+    color: #f2f3f4;
+    background-color: #404040
+}
+
+
+footer {
+    background-color: blue;
+    text-align: center;
+    height: 8rem;
+    width: 100%;
+    position: absolute;
+    right: 0rem;
+    bottom: 0rem;
+    
+}
+
+#footxt{
+    position: relative;
+    color: white;
+    background-color: blue;
+    top: 4rem;
+}
